@@ -18,6 +18,34 @@ A curated list of AI security resources inspired by [awesome-adversarial-machine
 | Code  | ![][code]|
 | Other  | ![][other]|
 
+<details>
+<summary>👤 About Me</summary>
+
+## 👋 Hi, I'm Tony Booker
+
+**AI Security • Cloud Security • Autonomous Systems • Drone Engineering**
+
+I'm a security-minded engineer pursuing my Master's in Artificial Intelligence, specializing in autonomous vehicle flight security. My work sits at the intersection of AI, cloud security, and autonomous systems.
+
+**My Mission:** To help shape the future of secure autonomous flight, ensuring that AI-driven systems are resilient, trustworthy, and safe.
+
+### 🤝 Open to Collaborating On
+
+- 🔒 AI security and adversarial testing projects
+- ☁️ Cloud security engineering and compliance automation
+- 🚁 Autonomous systems and flight safety innovations
+- 🔧 DevSecOps tooling and secure development practices
+
+### 📬 Connect With Me
+
+- 🐙 [GitHub](https://github.com/abooker30126)
+- 💼 [LinkedIn](https://www.linkedin.com/in/abooker30126)
+- 📧 Email — tony.booker@example.com
+
+</details>
+
+---
+
 ## Keywords:
 - [Adversarial examples](#-adversarial-examples)
 - [Evasion attacks](#-evasion)
