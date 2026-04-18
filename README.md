@@ -23,7 +23,7 @@ A curated list of AI security resources inspired by [awesome-adversarial-machine
 - [Evasion attacks](#-evasion)
 - [Poisoning attacks](#-poisoning)
 - [Feature selection](#-feature-selection)
-- Tutorials
+- [Tutorials](#-tutorials)
 - [Misc](#-misc)
 - [Code](#-code)
 - [Links](#-links)
@@ -88,6 +88,25 @@ A curated list of AI security resources inspired by [awesome-adversarial-machine
 |Type|Title|
 |---|:---|
 |![][research] ![][slides]|[Is Feature Selection Secure against Training Data Poisoning?](https://pralab.diee.unica.it/en/node/1191)|
+
+## [▲](#keywords) Tutorials
+|Type|Title|
+|---|:---|
+|![][web]| [Breaking Into AI Security: A Beginner's Guide to Adversarial Machine Learning](https://towardsdatascience.com/a-complete-guide-to-adversarial-robustness-in-machine-learning-36f9d7b63e70)|
+|![][web]| [Practical Guide to Adversarial Robustness](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)|
+|![][video]| [Adversarial Machine Learning Tutorial – MIT OpenCourseWare](https://www.youtube.com/watch?v=sknC3N_2Hos)|
+|![][video]| [Adversarial Robustness – Theory and Practice (NeurIPS Tutorial)](https://www.youtube.com/watch?v=TwP-gKBQyic)|
+|![][code]| [Adversarial Robustness Toolbox (ART) – End-to-end tutorial notebooks](https://github.com/Trusted-AI/adversarial-robustness-toolbox/tree/main/notebooks)|
+|![][code]| [CleverHans Tutorials – Step-by-step adversarial example construction with MNIST](https://github.com/cleverhans-lab/cleverhans/tree/master/cleverhans_v3.1.0/examples)|
+|![][web]| [Threat Modeling for Machine Learning Systems](https://learn.microsoft.com/en-us/security/ai-red-team/ai-risk-assessment)|
+|![][web]| [Google's Rules of Machine Learning – Security and Reliability Best Practices](https://developers.google.com/machine-learning/guides/rules-of-ml)|
+|![][code]| [Foolbox Quickstart – Crafting adversarial images in a few lines of Python](https://foolbox.jonasrauber.de/guide/getting_started.html)|
+|![][video]| [Hands-On Machine Learning Security: Attacks, Defenses, and Evaluation (USENIX)](https://www.usenix.org/conference/usenixsecurity22/presentation/li-yuwei)|
+|![][web]| [Building Secure ML Pipelines: Practical Hardening Techniques](https://owasp.org/www-project-machine-learning-security-top-10/)|
+|![][web]| [MITRE ATLAS – Adversarial Threat Landscape for AI Systems (tactics & mitigations)](https://atlas.mitre.org/)|
+|![][code]| [TextFooler – Hands-on NLP adversarial attack and defense notebook](https://github.com/jind11/TextFooler)|
+|![][video]| [Practical ML Security: Red-Teaming AI Models (DEF CON AI Village)](https://aivillage.org/)|
+|![][web]| [A Gentle Introduction to Backdoor Attacks and Defenses in Deep Learning](https://neptune.ai/blog/backdoor-attacks-on-neural-networks)|
 
 ## [▲](#keywords) Misc
 |Type|Title|
