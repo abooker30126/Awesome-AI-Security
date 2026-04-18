@@ -19,32 +19,26 @@ A curated list of AI security resources inspired by [awesome-adversarial-machine
 | Other  | ![][other]|
 
 <details>
-<summary>👤 About Me</summary>
-
-## 👋 Hi, I'm Tony Booker
+<summary>👋 About Me</summary>
 
 **AI Security • Cloud Security • Autonomous Systems • Drone Engineering**
 
-I'm a security-minded engineer pursuing my Master's in Artificial Intelligence, specializing in autonomous vehicle flight security. My work sits at the intersection of AI, cloud security, and autonomous systems.
+I'm a security-minded engineer pursuing my Master's in Artificial Intelligence, specializing in autonomous vehicle flight security and adversarial machine learning. I curate this list to help the security community stay current on threats, defenses, and research at the intersection of AI and cybersecurity.
 
-**My Mission:** To help shape the future of secure autonomous flight, ensuring that AI-driven systems are resilient, trustworthy, and safe.
+**Mission:** Securing AI-driven systems — from hardening models against adversarial attacks to protecting autonomous platforms and cloud-native AI pipelines against real-world threats.
 
-### 🤝 Open to Collaborating On
+**Areas I'm interested in collaborating on:**
+- 🛡️ AI/ML security research and adversarial robustness
+- 🤖 Autonomous systems security (UAVs, robotics, self-driving)
+- ☁️ Cloud security for AI workloads and MLOps pipelines
+- 🔍 Red-teaming and adversarial testing of AI models
+- 📡 Drone engineering and secure flight systems
 
-- 🔒 AI security and adversarial testing projects
-- ☁️ Cloud security engineering and compliance automation
-- 🚁 Autonomous systems and flight safety innovations
-- 🔧 DevSecOps tooling and secure development practices
-
-### 📬 Connect With Me
-
-- 🐙 [GitHub](https://github.com/abooker30126)
-- 💼 [LinkedIn](https://www.linkedin.com/in/abooker30126)
-- 📧 Email — tony.booker@example.com
+**Connect:**
+- 🐙 GitHub: [@abooker30126](https://github.com/abooker30126)
+- 💼 LinkedIn: [linkedin.com/in/abooker30126](https://www.linkedin.com/in/abooker30126)
 
 </details>
-
----
 
 ## Keywords:
 - [Adversarial examples](#-adversarial-examples)
