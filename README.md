@@ -18,27 +18,6 @@ A curated list of AI security resources inspired by [awesome-adversarial-machine
 | Code  | ![][code]|
 | Other  | ![][other]|
 
-<details>
-<summary>👋 About Tony</summary>
-
-**AI Security • Cloud Security • Autonomous Systems • Drone Engineering**
-
-I'm a security-minded engineer pursuing my Master's in Artificial Intelligence, specializing in autonomous vehicle flight security and adversarial machine learning. I curate this list to help the security community stay current on threats, defenses, and research at the intersection of AI and cybersecurity.
-
-**Mission:** Securing AI-driven systems — from hardening models against adversarial attacks to protecting autonomous platforms and cloud-native AI pipelines against real-world threats.
-
-**Areas I'm interested in collaborating on:**
-- 🛡️ AI/ML security research and adversarial robustness
-- 🤖 Autonomous systems security (UAVs, robotics, self-driving)
-- ☁️ Cloud security for AI workloads and MLOps pipelines
-- 🔍 Red-teaming and adversarial testing of AI models
-- 📡 Drone engineering and secure flight systems
-
-**Connect:**
-- 🐙 GitHub: [@abooker30126](https://github.com/abooker30126)
-
-</details>
-
 ## Keywords:
 - [Adversarial examples](#-adversarial-examples)
 - [Evasion attacks](#-evasion)
@@ -159,3 +138,23 @@ I'm a security-minded engineer pursuing my Master's in Artificial Intelligence, 
 |![][web]|[Adversarial Machine Learning - PRA Lab](https://pralab.diee.unica.it/en/AdversarialMachineLearning)|
 |![][web]|[Adversarial Examples and their implications](https://hackernoon.com/the-implications-of-adversarial-examples-deep-learning-bits-3-4086108287c7)|
 
+<details>
+<summary>👋 About Me</summary>
+
+**AI Security • Cloud Security • Autonomous Systems • Drone Engineering**
+
+I'm a security-minded engineer pursuing my Master's in Artificial Intelligence, specializing in autonomous vehicle flight security and adversarial machine learning. I curate this list to help the security community stay current on threats, defenses, and research at the intersection of AI and cybersecurity.
+
+**Mission:** Securing AI-driven systems — from hardening models against adversarial attacks to protecting autonomous platforms and cloud-native AI pipelines against real-world threats.
+
+**Areas I'm interested in collaborating on:**
+- 🛡️ AI/ML security research and adversarial robustness
+- 🤖 Autonomous systems security (UAVs, robotics, self-driving)
+- ☁️ Cloud security for AI workloads and MLOps pipelines
+- 🔍 Red-teaming and adversarial testing of AI models
+- 📡 Drone engineering and secure flight systems
+
+**Connect:**
+- 🐙 GitHub: [@abooker30126](https://github.com/abooker30126)
+
+</details>
