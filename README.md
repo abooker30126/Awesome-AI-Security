@@ -19,7 +19,7 @@ A curated list of AI security resources inspired by [awesome-adversarial-machine
 | Other  | ![][other]|
 
 <details>
-<summary>👋 About Me</summary>
+<summary>👋 About Tony</summary>
 
 **AI Security • Cloud Security • Autonomous Systems • Drone Engineering**
 
@@ -36,7 +36,6 @@ I'm a security-minded engineer pursuing my Master's in Artificial Intelligence, 
 
 **Connect:**
 - 🐙 GitHub: [@abooker30126](https://github.com/abooker30126)
-- 💼 LinkedIn: [linkedin.com/in/abooker30126](https://www.linkedin.com/in/abooker30126)
 
 </details>
 
