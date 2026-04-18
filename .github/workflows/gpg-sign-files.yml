@@ -20,6 +20,11 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Configure git user
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Import GPG private key
         env:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
@@ -37,8 +42,13 @@ jobs:
           HEAD_SHA=${{ github.event.pull_request.head.sha }}
           MODIFIED=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA" \
             | grep -E '\.(sh|py|yml|tf)$' || true)
-          # Emit as newline-delimited, then convert to space-separated for the env var
           echo "files=$(echo "$MODIFIED" | tr '\n' ' ' | sed 's/ $//')" >> "$GITHUB_OUTPUT"
+          if [ -n "$MODIFIED" ]; then
+            echo "Modified files detected:"
+            echo "$MODIFIED"
+          else
+            echo "No relevant modified files found."
+          fi
 
       - name: Sign modified files
         if: steps.changed-files.outputs.files != ''
@@ -55,15 +65,27 @@ jobs:
         env:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
           # Stage any new/changed .sig files
           git add '*.sig' || true
-          git diff --cached --quiet && exit 0   # nothing to commit
+
+          # Nothing to commit → exit cleanly
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
           git commit -m "chore: add GPG signatures for modified files [skip ci]"
-          git push origin HEAD:${{ github.head_ref }}
+
+          # Pull remote changes (rebase) before pushing to avoid conflicts
+          git pull --rebase origin "${{ github.head_ref }}" || {
+            echo "Rebase failed – aborting and exiting without push."
+            git rebase --abort
+            exit 1
+          }
+
+          # --force-with-lease prevents overwriting any remote commits we
+          # didn't account for in the rebase above.
+          git push --force-with-lease origin HEAD:${{ github.head_ref }}
 
       - name: Post signature report
         uses: actions/github-script@v7
