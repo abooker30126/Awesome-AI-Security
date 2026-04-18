@@ -1,0 +1,60 @@
+# .gpg-ignore
+# Files and directories to skip during GPG signing.
+# Syntax: one glob pattern per line.  Blank lines and lines beginning
+# with '#' are ignored.  Patterns are matched against the file path
+# relative to the repository root using shell glob rules.
+
+# ── Version-control internals ────────────────────────────────────────────────
+.git/*
+
+# ── Signature files themselves ────────────────────────────────────────────────
+*.gpg.sig
+*.sig
+*.asc
+
+# ── Generated / vendored / dependency directories ────────────────────────────
+node_modules/*
+vendor/*
+dist/*
+build/*
+__pycache__/*
+*.egg-info/*
+.tox/*
+.venv/*
+venv/*
+env/*
+
+# ── Terraform state & local override files ───────────────────────────────────
+*.tfstate
+*.tfstate.backup
+.terraform/*
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ── Secrets & credentials (should never be committed, but just in case) ──────
+*.pem
+*.key
+*.p12
+*.pfx
+*secret*
+*credential*
+*.env
+.env.*
+
+# ── IDE / editor artefacts ───────────────────────────────────────────────────
+.idea/*
+.vscode/*
+*.swp
+*.swo
+*~
+
+# ── OS-generated files ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── CI / cache directories ───────────────────────────────────────────────────
+.cache/*
+.pytest_cache/*
+.mypy_cache/*
